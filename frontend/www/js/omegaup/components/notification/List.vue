@@ -88,6 +88,10 @@ export default class NotificationList extends Vue {
   @media only screen and (min-width: 767px) {
     min-width: 35rem;
   }
+  @media only screen and (min-width: 992px) {
+    min-width: 22rem;
+    max-width: 26rem;
+  }
 }
 
 .notification-dropdown {
@@ -110,7 +114,7 @@ export default class NotificationList extends Vue {
 @media only screen and (max-width: 991px) {
   .notification-dropdown {
     position: fixed !important;
-    top: 60px !important; /* adjust if needed */
+    top: 60px !important;
     right: 10px !important;
     left: 10px !important;
     width: auto !important;
